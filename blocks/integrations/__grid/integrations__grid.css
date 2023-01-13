@@ -1,0 +1,7 @@
+.integrations__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 323px) ;
+  list-style-type: none;
+  margin: 0 100px 64px 88px;
+  gap: 48px;
+}

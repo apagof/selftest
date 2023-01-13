@@ -1,0 +1,12 @@
+.optimizer__subtitle {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.32px;
+  color: #241C15;
+  max-width: 468px;
+  width: 100%;
+  margin: 40px 0 25px 64px;
+}

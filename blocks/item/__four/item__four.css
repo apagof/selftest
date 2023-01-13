@@ -1,0 +1,5 @@
+.item__four {
+  background-image: url(../../../images/lamp.png);
+  min-height: 461px;
+  cursor: pointer;
+}

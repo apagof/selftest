@@ -1,0 +1,13 @@
+.overages__case {
+  padding: 0;
+  margin: 0 auto;
+  color: rgba(36, 28, 21, 0.65);
+  max-width: 860px;
+  width: 100%;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 16px;
+}

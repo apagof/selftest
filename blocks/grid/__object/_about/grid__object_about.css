@@ -1,0 +1,11 @@
+.grid__object_about {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  /* or 125% */
+
+
+  color: rgba(36, 28, 21, 0.65);
+}

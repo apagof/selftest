@@ -1,0 +1,11 @@
+.grid__object_name {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+
+  color: #241C15;
+}

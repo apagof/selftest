@@ -1,0 +1,9 @@
+.plan__price_value {
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 24px;
+  /* identical to box height, or 72% */
+  letter-spacing: 1px;
+  color: #241C15;
+
+}

@@ -1,0 +1,18 @@
+.header__button {
+background: #FFE01B;
+box-shadow: 0px 0px 0px #241C15;
+border-radius: 26px;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+min-width: 96px;
+max-width: 96px;
+width: 100%;
+min-height: 43px;
+text-align: center;
+color: #241C15;
+margin: 0;
+padding: 0;
+border: none;
+cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.plan__pref_item {
+  display: flex;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #000;
+  max-width: 210px;
+  width: 100%;
+}

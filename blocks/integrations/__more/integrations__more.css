@@ -1,0 +1,13 @@
+.integrations__more {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin: 0;
+  margin-left: 64px;
+  color: #241C15;
+  max-width: 200px;
+  width: 100%;
+  cursor: pointer;
+}

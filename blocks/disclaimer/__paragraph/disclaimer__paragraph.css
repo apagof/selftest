@@ -1,0 +1,12 @@
+.disclaimer__paragraph {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  margin: 0 0 12px 64px;
+  color: #241C15;
+}
+.disclaimer__paragraph:nth-last-child(1) {
+  margin-bottom: 40px;
+}

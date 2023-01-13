@@ -1,0 +1,11 @@
+.plans {
+  background: #F6F6F4;
+  max-width: 1152px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 288px);
+  list-style-type: none;
+  min-height: 576px;
+  padding: 0;
+  margin: 0 auto;
+}

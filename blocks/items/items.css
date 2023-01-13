@@ -1,0 +1,8 @@
+.items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 320px);
+  min-height: 461px;
+}

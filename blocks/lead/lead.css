@@ -1,0 +1,8 @@
+.lead {
+  min-height: 270px;
+  background-color: rgb(156, 154, 154);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

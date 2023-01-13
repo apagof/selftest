@@ -1,0 +1,8 @@
+.footer__links {
+  max-width: 675px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 134px) ;
+  margin-left: 212px;
+  gap: 30px;
+}

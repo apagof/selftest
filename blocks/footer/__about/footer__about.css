@@ -1,0 +1,11 @@
+.footer__about {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* or 150% */
+
+
+  color: #241C15;
+}

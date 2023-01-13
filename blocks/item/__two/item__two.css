@@ -1,0 +1,5 @@
+.item__two {
+  background-image: url(../../../images/phone.png);
+  min-height: 461px;
+  cursor: pointer;
+}

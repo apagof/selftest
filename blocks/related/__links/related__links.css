@@ -1,0 +1,14 @@
+.related__links {
+  max-width: 640px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 110px;
+  height: 100%;
+  max-width: 632px;
+  width: 100%;
+
+
+}

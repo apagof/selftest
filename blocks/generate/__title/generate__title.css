@@ -1,0 +1,15 @@
+.generate__title {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #241C15;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 550px;
+  padding-top: 77px;
+  padding-bottom: 110px;
+}

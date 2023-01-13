@@ -1,0 +1,8 @@
+.header {
+  background-color: rgb(156, 154, 154);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #241C15
+
+}

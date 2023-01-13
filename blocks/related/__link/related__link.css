@@ -1,0 +1,12 @@
+.related__link {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  color: #241C15;
+  text-decoration: none;
+  cursor: pointer;
+}

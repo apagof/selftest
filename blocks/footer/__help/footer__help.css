@@ -1,0 +1,19 @@
+.footer__help{
+  list-style-type: none;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  min-height: 110px;
+  max-height: 115px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  color: #241C15;
+}
