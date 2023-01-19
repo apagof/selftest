@@ -190,71 +190,9 @@
     <section class="integrations">
         <h3 class="integrations__title">Bring in more data, drive more growth with our integrations</h3>
         <ul class="integrations__grid">
-          <li class="grid__object">
-            <img src="./images/logo/canva.png"  alt="#" class="grid__object_image">
-            <div class="grid__object_wrapper">
-              <p class="grid__object_name">Canva</p>
-              <p class="grid__object_about">Create compelling visuals for your marketing.</p>
-            </div>
-          </li>
-          <li class="grid__object">
-            <img src="./images/logo/canva.png"  alt="#" class="grid__object_image">
-            <div class="grid__object_wrapper">
-              <p class="grid__object_name">Canva</p>
-              <p class="grid__object_about">Create compelling visuals for your marketing.</p>
-            </div>
-          </li>
-          <li class="grid__object">
-            <img src="./images/logo/canva.png"  alt="#" class="grid__object_image">
-            <div class="grid__object_wrapper">
-              <p class="grid__object_name">Canva</p>
-              <p class="grid__object_about">Create compelling visuals for your marketing.</p>
-            </div>
-          </li>
-          <li class="grid__object">
-            <img src="./images/logo/canva.png"  alt="#" class="grid__object_image">
-            <div class="grid__object_wrapper">
-              <p class="grid__object_name">Canva</p>
-              <p class="grid__object_about">Create compelling visuals for your marketing.</p>
-            </div>
-          </li>
-          <li class="grid__object">
-            <img src="./images/logo/canva.png"  alt="#" class="grid__object_image">
-            <div class="grid__object_wrapper">
-              <p class="grid__object_name">Canva</p>
-              <p class="grid__object_about">Create compelling visuals for your marketing.</p>
-            </div>
-          </li>
-          <li class="grid__object">
-            <img src="./images/logo/canva.png"  alt="#" class="grid__object_image">
-            <div class="grid__object_wrapper">
-              <p class="grid__object_name">Canva</p>
-              <p class="grid__object_about">Create compelling visuals for your marketing.</p>
-            </div>
-          </li>
-          <li class="grid__object">
-            <img src="./images/logo/canva.png"  alt="#" class="grid__object_image">
-            <div class="grid__object_wrapper">
-              <p class="grid__object_name">Canva</p>
-              <p class="grid__object_about">Create compelling visuals for your marketing.</p>
-            </div>
-          </li>
-          <li class="grid__object">
-            <img src="./images/logo/canva.png"  alt="#" class="grid__object_image">
-            <div class="grid__object_wrapper">
-              <p class="grid__object_name">Canva</p>
-              <p class="grid__object_about">Create compelling visuals for your marketing.</p>
-            </div>
-          </li>
-          <li class="grid__object">
-            <img src="./images/logo/canva.png"  alt="#" class="grid__object_image">
-            <div class="grid__object_wrapper">
-              <p class="grid__object_name">Canva</p>
-              <p class="grid__object_about">Create compelling visuals for your marketing.</p>
-            </div>
-          </li>
         </ul>
         <p class="integrations__more">View all 300+ integrations</p>
+        <button type="button" class="button integrations__add-button overages__button" aria-label="Add integration" title="Add integration">Add integration</button>
     </section>
     <section class="disclaimer">
         <h4 class="disclaimer__title">*Disclaimers</h4>
@@ -349,14 +287,28 @@
   </div>
 </div>
 </footer>
+<div class="popup__add">
+  <div class="popup__container">
+    <button type="button" class="popup__close-btn" title="close popup" aria-label="close popup"></button>
+    <form class="popup__add-form" name="add-integr">
+      <h3 class="popup__header">Add integration</h3>
+      <input type="link" class="popup__input popup__input_type_link" placeholder="link for logo" id="link" required>
+      <span class="popup__input-error" id="place-input-error"></span>
+      <input type="text" class="popup__input popup__input_name popup__input_type_text" placeholder="Integration name" minlength="2" maxlength="40" required>
+      <input type="text" class="popup__input popup__input_about popup__input_type_text" placeholder="About integration" minlength="2" maxlength="200" required>
+      <button class="popup__button-save" type="submit" value="Сохранить" name="Submit">Сохранить</button>
+    </form>
+  </div>
+</div>
   <template id="card-template">
-    <li class="grid__item">
-      <img src="#"  alt="#" class="grid__item__image">
-      <div class="grid__item__wrapper">
-        <p class="grid__item__name"></p>
-        <p class="grid__item__about"></p>
+    <li class="grid__object">
+      <img src="#" alt="#" class="grid__object_image">
+      <div class="grid__object_wrapper">
+        <p class="grid__object_name"></p>
+        <p class="grid__object_about"></p>
       </div>
     </li>
   </template>
+  <script src="./scripts/script.js"></script>
 </body>
 </html>

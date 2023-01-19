@@ -1,6 +1,8 @@
 .grid__object_image {
   max-width: 96px;
+  min-width: 96px;
   width: 100%;
   min-height: 96px;
   height: 100%;
+  max-height: 96px;
 }
